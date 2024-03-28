@@ -15,6 +15,41 @@ id	level_name
 3	user															
 4	guest															
 																
+CREATE TABLE users (
+  id BIGINT NOT NULL PRIMARY KEY, 
+  user_name VARCHAR(64) NOT NULL,
+  level_id VARCHAR(64) NOT NULL,
+  skill VARCHAR(64) NOT NULL
+  );
+
+CREATE TABLE level (
+  id BIGINT NOT NULL PRIMARY KEY, 
+  level_name VARCHAR(64) NOT NULL
+ );
+
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (1, 'Anton', 1, 900000);
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (2, 'Denis', 3, 4000);
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (3, 'Petr', 2, 50000);
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (4, 'Andrey', 4, 20);
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (5, 'Olga', 1, 600000);
+INSERT INTO users (id, user_name, level_id, skill)
+VALUES (6, 'Anna', 1, 1600000);
+
+INSERT INTO level (id, level_name)
+VALUES (1, 'admin');
+INSERT INTO level (id, level_name)
+VALUES (2, 'power_user');
+INSERT INTO level (id, level_name)
+VALUES (3, 'user');
+INSERT INTO level (id, level_name)
+VALUES (4, 'guest');
+
+
 Задания на написание запросов к БД:																
 1. Отобрать из таблицы user всех пользователей, у которых level_id=1, skill > 799000 и в имени встречается буква 'а'	
 SELECT *
