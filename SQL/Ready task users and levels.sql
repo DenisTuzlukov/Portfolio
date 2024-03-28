@@ -40,10 +40,10 @@ SELECT user_name
 FROM users
 WHERE level_id IN (SELECT id FROM level WHERE level_name = 'admin');																
 7. Выбрать user_name всех пользователей уровня admin используя join	
-"SELECT u.user_name
+SELECT u.user_name
 FROM users u
 JOIN level l ON u.level_id = l.id
-WHERE l.level_name = 'admin';"
+WHERE l.level_name = 'admin';
 															
 																
 																
