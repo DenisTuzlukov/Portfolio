@@ -1,0 +1,34 @@
+Test plan,,,
+1,ID ,"""KNIGHT"" application ",
+2,Introduction ,"The purpose of this test plan is to define the strategy and approaches to testing the KNIGHT application. This document describes the strategy and approaches to product testing, as well as usedTo check the quality of the software ",
+3,Testing environment ,System: Windows 11 64-bit; Monitor 17.3 inches. ,
+4,Types of tests ,1. Functional tests; ,
+,,2. Тестирование дым ,
+,,3. Borderline and negative tests.,
+,,4. Breaking into equivalence classes ,
+,,5. Performance tests; ,
+,,6. Non-functional tests ,Graphical user interface testing 
+,,,Usability testing 
+5,Testing objects,Start screen ,"""File"" button "
+,,,"""Help"" button "
+,,,"""Start"" button "
+,,,"""Play"" button "
+,,,"Combobox ""Choose решение"" "
+,,,"Trackbar ""Slow Play - Fast Play"" "
+,,,"""Animate"" checkbox "
+,,File ,Select Start Position
+,,,Gо
+,,,Clear
+,,,Play
+,,,Decisions
+,,,Options
+,,,Exit
+,,Help ,"Section ""About..."" "
+,,Options ,Lines Number
+,,,Cell Side
+,,,"Delay Between Moves, ms"
+,,,"View Mode “Check box Numbers, Knight"""
+6,Criteria for completing testing ,All test cases have been completed. ,
+,,All critical defects have been corrected and retested. ,
+,,The expected results are the same as the actual results for all tests. ,
+7,Test results:,The result of the testing should be a report that includes a description of the detected defects and recommendations for improving the product.,
