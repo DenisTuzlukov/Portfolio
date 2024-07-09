@@ -1,0 +1,6 @@
+Suggestions for improvement:,
+1,Add the ability to stop playing solutions.
+2,"Delay Between Moves, ms has an option to enter negative numbers, an unnecessary option since the time between calculations cannot be negative."
+3,"Make a field with the calculation information, as only the time and activity ratings are currently displayed."
+4,Rename the Start button to Start Calculation.
+5,"Sort the functions in the File menu according to their purpose. Go, Clear, Play Decisions together, Select Start Position separately."
